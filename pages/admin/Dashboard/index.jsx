@@ -1,11 +1,10 @@
 import Head from "next/head";
 import React from "react";
-import styles from "../styles/dashboard.module.scss";
+import styles from "../../../styles/dashboard.module.scss"
 import Layout from "@/components/layout";
-import Dropdown from "@/components/dropdown";
 import Notifications from "@/components/notifications";
 import { TbUsers } from "react-icons/tb";
-import { SlHandbag, SlEye } from "react-icons/sl";
+import { SlHandbag } from "react-icons/sl";
 import { SiProducthunt } from "react-icons/si";
 import { GiTakeMyMoney } from "react-icons/gi";
 import Link from "next/link";
